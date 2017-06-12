@@ -12,5 +12,3 @@ F:\C++Dev\ToDoListWinForms\ToDoListWinForms\obj\Debug\ToDoListWinForms.about.res
 F:\C++Dev\ToDoListWinForms\ToDoListWinForms\obj\Debug\ToDoListWinForms.csprojResolveAssemblyReference.cache
 F:\C++Dev\ToDoListWinForms\ToDoListWinForms\obj\Debug\ToDoListWinForms.startproject.resources
 F:\C++Dev\ToDoListWinForms\ToDoListWinForms\obj\Debug\ToDoListWinForms.workspace.resources
-F:\C++Dev\ToDoListWinForms\ToDoListWinForms\bin\Debug\MySql.Web.dll
-F:\C++Dev\ToDoListWinForms\ToDoListWinForms\bin\Debug\MySql.Web.xml
