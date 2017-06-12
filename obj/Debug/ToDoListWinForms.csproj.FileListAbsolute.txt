@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 F:\C++Dev\ToDoListWinForms\ToDoListWinForms\bin\Debug\ToDoListWinForms.exe.config
 F:\C++Dev\ToDoListWinForms\ToDoListWinForms\bin\Debug\ToDoListWinForms.exe
 F:\C++Dev\ToDoListWinForms\ToDoListWinForms\bin\Debug\ToDoListWinForms.pdb
@@ -12,3 +13,21 @@ F:\C++Dev\ToDoListWinForms\ToDoListWinForms\obj\Debug\ToDoListWinForms.about.res
 F:\C++Dev\ToDoListWinForms\ToDoListWinForms\obj\Debug\ToDoListWinForms.csprojResolveAssemblyReference.cache
 F:\C++Dev\ToDoListWinForms\ToDoListWinForms\obj\Debug\ToDoListWinForms.startproject.resources
 F:\C++Dev\ToDoListWinForms\ToDoListWinForms\obj\Debug\ToDoListWinForms.workspace.resources
+=======
+F:\C++Dev\ToDoListWinForms\ToDoListWinForms\bin\Debug\ToDoListWinForms.exe.config
+F:\C++Dev\ToDoListWinForms\ToDoListWinForms\bin\Debug\ToDoListWinForms.exe
+F:\C++Dev\ToDoListWinForms\ToDoListWinForms\bin\Debug\ToDoListWinForms.pdb
+F:\C++Dev\ToDoListWinForms\ToDoListWinForms\obj\Debug\ToDoListWinForms.auth.resources
+F:\C++Dev\ToDoListWinForms\ToDoListWinForms\obj\Debug\ToDoListWinForms.Properties.Resources.resources
+F:\C++Dev\ToDoListWinForms\ToDoListWinForms\obj\Debug\ToDoListWinForms.csproj.GenerateResource.Cache
+F:\C++Dev\ToDoListWinForms\ToDoListWinForms\obj\Debug\ToDoListWinForms.exe
+F:\C++Dev\ToDoListWinForms\ToDoListWinForms\obj\Debug\ToDoListWinForms.pdb
+F:\C++Dev\ToDoListWinForms\ToDoListWinForms\bin\Debug\MySql.Data.dll
+F:\C++Dev\ToDoListWinForms\ToDoListWinForms\bin\Debug\MySql.Data.xml
+F:\C++Dev\ToDoListWinForms\ToDoListWinForms\obj\Debug\ToDoListWinForms.about.resources
+F:\C++Dev\ToDoListWinForms\ToDoListWinForms\obj\Debug\ToDoListWinForms.csprojResolveAssemblyReference.cache
+F:\C++Dev\ToDoListWinForms\ToDoListWinForms\obj\Debug\ToDoListWinForms.startproject.resources
+F:\C++Dev\ToDoListWinForms\ToDoListWinForms\obj\Debug\ToDoListWinForms.workspace.resources
+F:\C++Dev\ToDoListWinForms\ToDoListWinForms\bin\Debug\MySql.Web.dll
+F:\C++Dev\ToDoListWinForms\ToDoListWinForms\bin\Debug\MySql.Web.xml
+>>>>>>> origin/master

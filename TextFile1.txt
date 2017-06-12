@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿string serverName = "mysql.site.ru"; // Адрес сервера (для локальной базы пишите "localhost")
             string userName = "admin"; // Имя пользователя
             string dbName = "myTestDb"; //Имя базы данных
@@ -60,4 +61,68 @@
         catch (Exception ex)
         {
             MessageBox.Show(ex.Message);
+=======
+﻿string serverName = "mysql.site.ru"; // Адрес сервера (для локальной базы пишите "localhost")
+            string userName = "admin"; // Имя пользователя
+            string dbName = "myTestDb"; //Имя базы данных
+            string port = "3306"; // Порт для подключения
+            string password = "password123"; // Пароль для подключения
+            string connStr = "server=" + serverName +
+                ";user=" + userName +
+                ";database=" + dbName +
+                ";port=" + port +
+                ";password=" + password + ";"; 
+            MySqlConnection conn = new MySqlConnection(connStr);
+            conn.Open();
+
+
+			                string mysqlConnection = "datasource=141.8.195.82;port=3306;username=a0141773_todolis;password=apache12";
+                MySqlConnection myConn = new MySqlConnection(mysqlConnection);
+                myConn.Open();
+                MySqlCommand SelectCommand = new MySqlCommand("select * from a0141773_todolist.users where user='" + authForm.loginBox.Text + "' and password='" + authForm.pwdBox.Text + "';", myConn);
+
+                MySqlDataReader myReader;
+
+                myReader = SelectCommand.ExecuteReader();
+
+
+
+;");
+
+
+
+
+
+				try
+        {
+            string myConnection = "datasource = localhost;port=3306;username=root;password=";
+            MySqlConnection myConn = new MySqlConnection(myConnection);
+            MySqlCommand SelectCommand = new MySqlCommand("select username, password from library_sys.tbl_users where username = '" + this.txtusername.Text + "' and password = '" + this.txtpword.Text + "';", myConn);
+            MySqlDataReader myReader;
+            myConn.Open();
+            myReader = SelectCommand.ExecuteReader();
+            int count = 0;
+
+            while (myReader.Read())
+            {
+                count = count + 1;
+            }
+            if (count == 1)
+            {
+                MessageBox.Show("Welcome to the LIBRARY MANAGEMENT SYSTEM!");
+                this.Hide();
+                Librarian lib = new Librarian();
+                lib.Show();
+            }
+            else
+            {
+                MessageBox.Show("Invalid username or password.");
+                myConn.Close();
+            }
+            myConn.Close();
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show(ex.Message);
+>>>>>>> origin/master
         }

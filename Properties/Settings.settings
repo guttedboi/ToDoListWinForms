@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<?xml version='1.0' encoding='utf-8'?>
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ToDoListWinForms.Properties" GeneratedClassName="Settings">
   <Profiles />
@@ -6,4 +7,14 @@
       <Value Profile="(Default)" />
     </Setting>
   </Settings>
+=======
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ToDoListWinForms.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Setting" Type="MySql.Data.MySqlClient.MySqlConnection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+>>>>>>> origin/master
 </SettingsFile>
